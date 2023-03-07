@@ -77,6 +77,7 @@ font-size: var(--font-size);
     color: var(--link-focus);
 }
 .contact {
+    color: var(--primary-text-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
