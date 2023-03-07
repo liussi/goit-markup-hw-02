@@ -2,8 +2,8 @@
     --primary-font:'Roboto',sans-serif;
     --secondary-font:'Raleway', sans-serif;
     --accent-color:#4D5AE5;
-    --primary-text-color:#2E2F42;
-    --secondary-text-color:#434455;
+    --primary-text-color:#434455;
+    --secondary-text-color:#2E2F42;
     --link-focus:#404BBF;
     --theme-dark:#F4F4FD;
     --theme-light:#F4F4FD;
@@ -49,19 +49,19 @@ font-size: var(--font-size);
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--primary-text-color);
+    color: var(--secondary-text-color);
 }
 .text {
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--secondary-text-color);
+        color: var(--primary-text-color);
 }
 .title {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: var(--primary-text-color);
+        color: var(--secondary-text-color);
 }
 /* ================HEADER=================== */
 
@@ -70,6 +70,7 @@ font-size: var(--font-size);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -80,8 +81,11 @@ font-size: var(--font-size);
     letter-spacing: 0.02em;
 }
 .contact:hover,
-.conact:focus {
+.contact:focus {
     color: var(--link-focus);
+}
+.address {
+    font-style: normal;
 }
 /* ==========HERO=========== */
 .hero-title {
@@ -93,13 +97,15 @@ font-size: var(--font-size);
     color: var(--theme-white);
 }
 .button {
-    font-weight: 500;
-    line-height: 1.5; 
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
     color: var(--theme-white);
     background-color: var(--accent-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0.04em;
+    display: flex;
+    align-items: center;
     cursor: pointer;
 }
 .button:hover,
@@ -113,7 +119,7 @@ font-size: var(--font-size);
 
  }
 .text-theme-light {
-    color: var(--primary-text-color);
+    color: var(--secondary-text-color);
 }
 /* ================employees=================== */
 .employes {
@@ -121,18 +127,20 @@ font-size: var(--font-size);
 }
 /* ===============FOOTER========= */
 .team-dark {
-    background-color: var(--primary-text-color);
+    background-color: var(--secondary-text-color);
 }
 /* ===================section-portfolio================= */
 .modal-btn {
     color: var(--accent-color);
     background-color: var(--theme-light);
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     display: flex;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.04em;
     cursor: pointer;
 }
 .modal-btn:hover,
